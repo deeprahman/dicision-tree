@@ -34,18 +34,7 @@ export default function Edit({ attributes, setAttributes }) {
 
     return (
         <div {...blockProps}>
-            <RichText
-                tagName="h2"
-                value={attributes.title}
-                onChange={(newTitle) => setAttributes({ title: newTitle })}
-                placeholder="Enter title here"
-            />
-            <RichText
-                tagName="p"
-                value={attributes.description}
-                onChange={(newDescription) => setAttributes({ description: newDescription })}
-                placeholder="Enter description here"
-            />
+          <h3>Dicision Tree will be shown here on front-end</h3>
         </div>
     );
 }
